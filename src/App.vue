@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <TextValidator msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TextValidator from './components/TextValidator.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TextValidator
   }
 }
 </script>
